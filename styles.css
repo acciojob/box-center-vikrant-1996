@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            background-color: #f0f0f0; 
+        }
+
+        .centered-box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue; 
+            border: 2px solid black; 
+            
+        }
+
+        .centered-box p {
+            color: purple; 
+            position: absolute;
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
